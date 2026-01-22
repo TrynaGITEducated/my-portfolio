@@ -1,17 +1,3 @@
-// https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js
-// document.addEventListener("DOMContentLoaded", () => {
-//     new Typed("#typing-text", {
-//       strings: ["Web Development", "UI/UX Design", "ML/AI", "Java Development", "Just..Tech"],
-//       typeSpeed: 70,
-//       backSpeed: 50,
-//       backDelay: 2000,
-//       loop: true,
-//       showCursor: true,
-//       cursorChar: "|"
-//     });
-//   });
-  
-// Enhanced Navigation Functionality
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menu');
     const navbar = document.querySelector('.navbar');
@@ -121,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing Animation (your existing code)
     if (typeof Typed !== 'undefined') {
         new Typed("#typing-text", {
-            strings: ["Web Development", "UI/UX Design", "ML/AI", "Java Development", "Just..Tech"],
+            strings: ["Web Development", "UI/UX Design", "ML/AI", "Mobile Development", "IoT","Cloud Computing"],
             typeSpeed: 70,
             backSpeed: 50,
             backDelay: 2000,
